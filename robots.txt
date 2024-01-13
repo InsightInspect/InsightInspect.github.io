@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+#DaumWebMasterTool:7fab4a25ef8b8cb316d5afc32cff90a3ebf28db4dcadf32157d9636fd816f1e9:jUYZ7RyGy/bE/YmS7LEilg==
 Sitemap: http://InsightInspect.github.io/sitemap.xml
-Allow: /#DaumWebMasterTool:7fab4a25ef8b8cb316d5afc32cff90a3ebf28db4dcadf32157d9636fd816f1e9:jUYZ7RyGy/bE/YmS7LEilg==
+
