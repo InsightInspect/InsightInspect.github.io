@@ -2,6 +2,10 @@
 
 {% include seo.html %}
 
+<!-- robots 태그와 canonical 태그 추가 -->
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://insightinspect.github.io/">
+
 {% unless site.atom_feed.hide %}
   <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 {% endunless %}
